@@ -14,9 +14,9 @@ public class formatted_input {
             int i2=sc.nextInt();
 
             System.out.println("================================================================================");
-            System.out.println(name+"               "+i);
-            System.out.println(name1+"               "+i1);
-            System.out.println(name2+"               "+i2);
+            System.out.printf("%-15s%03d%n",name,i);
+            System.out.printf("%-15s%03d%n",name1,i1);
+            System.out.printf("%-15s%03d%n",name2,i2);
             System.out.println("================================================================================");
             
         }
